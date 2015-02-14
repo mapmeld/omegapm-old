@@ -1,8 +1,10 @@
-Copyright (c) npm, Inc. and Contributors
+Copyright (c) Nick Doiron and Contributors
 All rights reserved.
 
 npm is released under the Artistic License 2.0, subject to additional terms
 that are listed below.
+
+Ωpm ("omega package manager") is based on npm and subject to the same license and terms.
 
 The text of the npm License follows and the text of the additional terms
 follows the Artistic License 2.0 terms:

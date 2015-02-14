@@ -1,35 +1,19 @@
 {
-  "version": "2.5.1",
-  "name": "npm",
+  "version": "0.0.1",
+  "name": "omegapm",
   "description": "a package manager for JavaScript",
-  "keywords": [
-    "package manager",
-    "modules",
-    "install",
-    "package.json"
-  ],
   "preferGlobal": true,
-  "config": {
-    "publishtest": false
-  },
-  "homepage": "https://docs.npmjs.com/",
-  "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me)",
+  "homepage": "https://github.com/mapmeld/omegapm",
   "repository": {
     "type": "git",
-    "url": "https://github.com/npm/npm"
+    "url": "https://github.com/mapmeld/omegapm"
   },
   "bugs": {
-    "email": "npm-@googlegroups.com",
-    "url": "http://github.com/npm/npm/issues"
+    "email": "nick@mapmeld.com",
+    "url": "http://github.com/mapmeld/omegapm/issues"
   },
-  "directories": {
-    "doc": "./doc",
-    "man": "./man",
-    "lib": "./lib",
-    "bin": "./bin"
-  },
-  "main": "./lib/npm.js",
-  "bin": "./bin/npm-cli.js",
+  "main": "./lib/omegapm.js",
+  "bin": "./bin/omega-cli.js",
   "dependencies": {
     "abbrev": "~1.0.5",
     "ansi": "~0.3.0",
@@ -179,8 +163,8 @@
     "test": "tap --timeout 120 test/tap/*.js",
     "tap": "tap --timeout 120 test/tap/*.js",
     "test-all": "node ./test/run.js && tap test/tap/*.js",
-    "prepublish": "node bin/npm-cli.js prune --prefix=. --no-global && rm -rf test/*/*/node_modules && make -j8 doc",
-    "dumpconf": "env | grep npm | sort | uniq"
+    "prepublish": "node bin/omegapm-cli.js prune --prefix=. --no-global && rm -rf test/*/*/node_modules",
+    "dumpconf": "env | grep omegapm | sort | uniq"
   },
   "license": "Artistic-2.0"
 }
