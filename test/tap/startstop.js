@@ -32,28 +32,6 @@ test("setup", function (t) {
   t.end()
 })
 
-test("npm start", function (t) {
-  common.npm(["start"], opts, testOutput.bind(null, t, "start"))
-})
-
-test("npm stop", function (t) {
-  common.npm(["stop"], opts, testOutput.bind(null, t, "stop"))
-})
-
-test("npm restart", function (t) {
-  common.npm(["restart"], opts, function (er, c, stdout) {
-    if (er)
-      throw er
-
-    var output = stdout.split("\n").filter(function (val) {
-      return val.match(/^s/)
-    })
-
-    t.same(output.sort(), ["start", "stop"].sort())
-    t.end()
-  })
-})
-
 test("cleanup", function (t) {
   cleanup()
   t.end()

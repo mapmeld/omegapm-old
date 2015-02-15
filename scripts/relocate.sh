@@ -10,7 +10,7 @@
 # If $nodepath is blank, then it'll use /usr/bin/env
 
 dir="$(dirname "$(dirname "$0")")"
-cli="$dir"/bin/npm-cli.js
+cli="$dir"/bin/omegapm-cli.js
 tmp="$cli".tmp
 
 node="$1"

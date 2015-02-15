@@ -5,7 +5,7 @@ var pkg = require("path").join(__dirname,"ignore-shrinkwrap")
 var mr = require("npm-registry-mock")
 
 var spawn = require("child_process").spawn
-var npm = require.resolve("../../bin/npm-cli.js")
+var npm = require.resolve("../../bin/omegapm-cli.js")
 var node = process.execPath
 
 var customMocks = {

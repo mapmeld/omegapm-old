@@ -1,6 +1,6 @@
 var common = require("../common-tap.js")
 var test = require("tap").test
-var npm = require.resolve("../../bin/npm-cli.js")
+var npm = require.resolve("../../bin/omegapm-cli.js")
 var path = require("path")
 var fs = require("fs")
 var rimraf = require("rimraf")

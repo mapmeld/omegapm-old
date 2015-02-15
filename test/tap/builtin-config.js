@@ -73,7 +73,7 @@ test("use first npm to install second npm", function (t) {
     var root = so.trim()
     t.ok(fs.statSync(root).isDirectory())
 
-    var bin = path.resolve(root, "npm/bin/npm-cli.js")
+    var bin = path.resolve(root, "omegapm/bin/omegapm-cli.js")
     spawn( node
          , [ bin
            , "install", npm

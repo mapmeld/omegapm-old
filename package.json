@@ -12,8 +12,8 @@
     "email": "nick@mapmeld.com",
     "url": "http://github.com/mapmeld/omegapm/issues"
   },
-  "main": "./lib/omegapm.js",
-  "bin": "./bin/omega-cli.js",
+  "main": "./lib/npm.js",
+  "bin": "./bin/omegapm-cli.js",
   "dependencies": {
     "abbrev": "~1.0.5",
     "ansi": "~0.3.0",
@@ -38,6 +38,7 @@
     "github-url-from-git": "~1.4.0",
     "github-url-from-username-repo": "~1.0.2",
     "glob": "~4.3.5",
+    "gpg": "~0.3.4",
     "graceful-fs": "~3.0.5",
     "inflight": "~1.0.4",
     "inherits": "~2.0.1",
@@ -105,6 +106,7 @@
     "github-url-from-git",
     "github-url-from-username-repo",
     "glob",
+    "gpg",
     "graceful-fs",
     "inflight",
     "inherits",

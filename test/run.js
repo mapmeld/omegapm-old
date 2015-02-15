@@ -7,7 +7,7 @@ var path = require("path")
   , testdir = __dirname
   , fs = require("graceful-fs")
   , npmpkg = path.dirname(testdir)
-  , npmcli = path.resolve(npmpkg, "bin", "npm-cli.js")
+  , npmcli = path.resolve(npmpkg, "bin", "omegapm-cli.js")
 
 var temp = process.env.TMPDIR
          || process.env.TMP

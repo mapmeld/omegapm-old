@@ -4,7 +4,7 @@
 var common = require("../common-tap")
 var test = require("tap").test
 
-var npmExec = require.resolve("../../bin/npm-cli.js")
+var npmExec = require.resolve("../../bin/omegapm-cli.js")
 var path = require("path")
 var ca = path.resolve(__dirname, "../../node_modules/npm-registry-couchapp")
 
