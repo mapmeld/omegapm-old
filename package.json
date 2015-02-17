@@ -1,5 +1,5 @@
 {
-  "version": "0.0.2",
+  "version": "0.0.3",
   "name": "omegapm",
   "description": "a package manager for JavaScript",
   "preferGlobal": true,

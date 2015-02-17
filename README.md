@@ -22,9 +22,21 @@ Much more info available via `omegapm help` once it's installed.
 
 ## Installing
 
-Install with NPM
+Set up <a href="https://keybase.io">Keybase</a>!!
+
+Install Ωpm with NPM
 
     npm install omegapm -g
+
+## Using it
+
+As of 0.0.3, Ωpm still installs from npmjs.org, just without running scripts.
+
+Ωpm then attempts to run 'keybase dir verify' on the package. In the future this would
+also accept a match with a signed commit from the developer.
+
+    omegapm install omega-sqrt
+    Ωpm install omega-sqrt
 
 ## Uninstalling
 
