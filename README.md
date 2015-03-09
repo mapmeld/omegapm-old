@@ -28,15 +28,23 @@ Install Ωpm with NPM
 
     npm install omegapm -g
 
-## Using it
+## Getting modules
 
-As of 0.0.3, Ωpm still installs from npmjs.org, just without running scripts.
+As of 0.0.4, Ωpm still installs from npmjs.org and GitHub, just without
+running scripts during the publish or install process.
 
-Ωpm then attempts to run 'keybase dir verify' on the package. In the future this would
+On install, Ωpm attempts to run 'keybase dir verify' on the package. In the future this would
 also accept a match with a signed commit from the developer.
 
     omegapm install omega-sqrt
     Ωpm install omega-sqrt
+
+## Publishing modules
+
+As of 0.0.4, Ωpm still publishes modules on npmjs.org. During the prepublish step, Ωpm
+will run 'keybase dir verify' and stop publication of a module if its SIGNED.md does not match
+the files in your module.  If you are not committing parts of your module, put them in
+.gitignore and they will also be ignored by this command.
 
 ## Uninstalling
 
