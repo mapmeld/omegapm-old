@@ -1,12 +1,8 @@
 Ωpm -- a JavaScript package manager
 
-End-to-end\* encrypted, JavaScript-only verified-build packages.
-
-\* packages will be signed by developer, encrypted for upload to Ωpm server, then encrypted for download by Ωpm users
+NPM variant with signed packages and identical builds - see <a href="http://omegapm.org">OmegaPM.org</a>
 
 https://gist.github.com/mapmeld/7eb3b213358b55b74bdf
-
-Pretty much NPM right now.
 
 ==============================
 [![Build Status](https://img.shields.io/travis/mapmeld/omegapm/master.svg)](https://travis-ci.org/mapmeld/omegpam)
@@ -22,35 +18,39 @@ Much more info available via `omegapm help` once it's installed.
 
 ## Installing
 
-Set up <a href="https://keybase.io">Keybase</a>!!
-
 Install Ωpm with NPM
 
     npm install omegapm -g
 
+Also install Keybase (you don't need to be a Keybase member)
+
+    npm install keybase-installer -g
+    keybase-installer
+    keybase config
+
 ## Getting modules
 
-As of 0.0.4, Ωpm still installs from npmjs.org and GitHub, just without
+As of 0.0.5, Ωpm still installs from npmjs.org and public git repos, just without
 running scripts during the publish or install process.
 
-On install, Ωpm attempts to run 'keybase dir verify' on the package. In the future this would
-also accept a match with a signed commit from the developer.
+On install, Ωpm attempts to run 'keybase dir verify' on the package.
 
     omegapm install omega-sqrt
     Ωpm install omega-sqrt
 
 ## Publishing modules
 
-As of 0.0.4, Ωpm still publishes modules on npmjs.org. During the prepublish step, Ωpm
-will run 'keybase dir verify' and stop publication of a module if its SIGNED.md does not match
-the files in your module.  If you are not committing parts of your module, put them in
-.gitignore and they will also be ignored by this command.
+Your module must be all-JavaScript and require no additional scripts in the install process.
 
-## Uninstalling
+If you are publishing a module, you need to have a GPG key. You can create one on the command line with
+```gpg --gen-key```
 
-So sad to see you go.
+Run ```keybase dir sign``` and commit SIGNED.md along with your other files in the repo.
+If you are not committing parts of your module, put them in .gitignore and they will also be ignored by
+keybase's directory-signing tool.
 
-    sudo npm uninstall omegapm -g
+Go to <a href="http://omegapm.org/packages">omegapm.org/packages</a> and paste in the link to a public
+git repo.
 
 ## Legal Stuff
 

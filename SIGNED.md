@@ -3,13 +3,13 @@
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2
 
-iQEcBAABCAAGBQJU/RUUAAoJEDWbjndSKzRJAfUH+gPDwQf6K+BGg7okDvpeBkTp
-gvVHIkmvEURcPpgrC45xJYWy5RXAs3MLpcVIjp+/VzVxLQu9ue+PvGTslQHX+N4V
-y69OZ8jfOKg0gXkzhhwfgG/WuqYM1pC13JawNv0qa7Aog3oPbDe9qoG5BtmSwrUK
-77sXJv/49BoGfwwjl4cVPFsmOtaGUQ1/pi44/++onZEOt5QOD7ghRfQ1WuiiD5t5
-/o42dYzGAiwSJf3GNWOxCqGXtqtDQ4cEBTvMCb8cSI79tdDaLoXsCgpXmq/CbgN+
-d+dXfVy/b4+O93CAbeU/Nzr+0UbnXEyNo9BI65yFAoHEtqhDw1AiZL5re/ZYG3Y=
-=CYz8
+iQEcBAABCAAGBQJVB0skAAoJEDWbjndSKzRJz1cIAKCmB2aqACUUehzmT+UXb/uv
+frcdfyW5LrMIXRmKWEeziI/b1TqLy1FBIh6Pc2Hkj7KP3zvwgWmQAr1QqDL4WzTy
+mGXA5axEkn1abj6Hy9MlX/7zBTOIZie9+sFsz24ySy68vShCTWK/t23yXPlIMR0C
+ACNfnxPnmVHP927RL5tZMnM+kP7G+tqrY1W/XG0JthviKfJwKdU1OcpGwcQq1mwI
+POyw9wX93WeKvlF1wmdc97nyPAPPp9f4qTfGeWjNbNNnvqncU+LidO77gdf9uK6p
+b2ow1oiprnkDeFj5HaHxSlER2sPjPxwpDBVBhrenUGa8xstyZPMiNIcQl/gYrls=
+=1Yg4
 -----END PGP SIGNATURE-----
 
 ```
@@ -84,7 +84,7 @@ size    exec  file                                                 contents
 37322             install.js                                       6f8261de5546a142407abdfb8f4cda16184fbebe44be2503ce85b6c877cddf14                                                                 
 5280              link.js                                          0917d16019f140bf435fa0bc92026334c4b9b147c04a46f3c817314c8265446d                                                                 
 10082             ls.js                                            020b69eb6595d59aa2f0ce09e1a949b5b19baa922f8e7419fcf634c262f50470                                                                 
-12727             npm.js                                           fe0de427535f0e6f34f973fab835a4025a8381c413f92fe9593f92e267a0bc49                                                                 
+12787             npm.js                                           c3b0050520ec71e15b58ea9b4040b8b4e621f90a9118afcd33a918e798ee83e2                                                                 
 9986              outdated.js                                      ca3d6c265ca2fcabee3a6d6cbebf43ab680bc4c081032519f8a5d6dd00364c55                                                                 
 7558              owner.js                                         fec41c7e069ee39b3f1b80642ab9a1dda2b4e5b0ac5f258bcaba94c73778c4b4                                                                 
 1771              pack.js                                          69034e3e42f80fe897e8fd0d92b6aaa1643b80749ea9caf93ad058e1471325ff                                                                 
@@ -102,6 +102,7 @@ size    exec  file                                                 contents
 1270              star.js                                          f3bb6f037649f2a9cf98b2e81578b5ffa8f915f297f9cfcd4cd17abe4e3f5cd5                                                                 
 816               stars.js                                         975b9a2bef1ace52ab19e225cbab19f39b8ac03f87bcaac9b6fe497b2c8f1182                                                                 
 62                start.js                                         952c03eb7b9479101fb946a32517bb91c4cebca57ae43236c43f17a8d141d898                                                                 
+11353             status.js                                        2a1ebe2364ef3e65381828e6758d1c3daa670e17f4187240fb5e0d9c3288bda8                                                                 
 61                stop.js                                          7529bf7b0d5826c6538dae7e23f5dafd7c7911b641c272aeaa326dbc724e3a9e                                                                 
 473               substack.js                                      22b8ec1ef8cbcd3cd276b231ed8bb922683c8c3e93e448c24f1a5fb68334eeee                                                                 
 1076              tag.js                                           c39cbf847728454aeda079cb2813c1be624c3ddda610c1e91c78890b471cc4d4                                                                 
@@ -1777,8 +1778,8 @@ size    exec  file                                                 contents
 3645                  basic.js                                     d946f86a382f32285439358f0d9de95be58db1faf95e268f653d3cbb2db7f159                                                                 
 8769            NPM-AUTHORS                                        a547af7014353469bd3245a4295cb2fe9e68e7b66c25f0667771ae5aefb71f32                                                                 
 105127          NPM-CHANGELOG.md                                   8390838bc61bc39da79fdcc563d452869cfbb620b54cf527dc3be3d41f35ac74                                                                 
-4300            package.json                                       86b4d47fd87fab7c766dac942792a623e86aba9d41192a6920f95db1c1f38320                                                                 
-3585            README.md                                          9d8fa0d8f568efd74a3a8cd866c51f00eaec381cd48023fc1b6820620c532530                                                                 
+4300            package.json                                       cf0e2094e61856141c08e098c0027fabfd54c69ba88ac8313174068fa5ec2dcc                                                                 
+3646            README.md                                          0c3a29fead07e0a82aaa4db0de39c9be61216205cb2ba54d9587a4a0afb2d66d                                                                 
                 scripts/                                                                                                                                                                            
 4258    x         clean-old.sh                                     cccefdfff900acc9873a16805c244725b08d0bf85e15c7dacc3886ba8d5c7b4c                                                                 
 3376    x         doc-build.sh                                     20248ebb0b30bc3d98bd859ba65d5f89c8618888aa9454b21aca50b6ad774558                                                                 
