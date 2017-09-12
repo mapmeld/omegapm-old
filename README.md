@@ -5,6 +5,8 @@ NPM variant with signed packages and identical builds - see <a href="http://omeg
 https://gist.github.com/mapmeld/7eb3b213358b55b74bdf
 
 ==============================
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/mapmeld/omegapm-old.svg)](https://greenkeeper.io/)
 [![Build Status](https://img.shields.io/travis/mapmeld/omegapm/master.svg)](https://travis-ci.org/mapmeld/omegpam)
 ## SYNOPSIS
 
